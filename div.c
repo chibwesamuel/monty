@@ -13,7 +13,7 @@ void f_div(stack_t **head, unsigned int counter)
     h = *head;
     while (h)
     {
-        h = h->next
+        h = h->next;
         len++;
     }
     if (len < 2)
